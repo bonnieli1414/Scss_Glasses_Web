@@ -22,34 +22,32 @@ body {
 
 /*
     文字對SEO的影響力大於圖片，
-    h1若要改放置圖片，
+    h1若要改放置圖片，可在h1標籤@include image-replaces-text;
     以下是優化圖片SEO技巧
 */
 @mixin image-replaces-text {
-    h1 {
-        a {
-            /*
-            background讓背景圖片隨著螢幕大小自適應
-            */
-            background-image: url("/image/sample.jpg");
-            max-width: $desktop-width;
-            height: 500px;
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            /*
-            強迫文字縮排至原本的區域外
-            */
-            text-indent: 101%;
-            /*
-            不進行換行
-            */
-            white-space: nowrap;
-            /*
-            將超出範圍的內容隱藏
-            */
-            overflow: hidden;
-        }
+    a {
+        /*
+        background讓背景圖片隨著螢幕大小自適應
+        */
+        background-image: url("/image/sample.jpg");
+        max-width: $desktop-width;
+        height: 500px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*
+        強迫文字縮排至原本的區域外
+        */
+        text-indent: 101%;
+        /*
+        不進行換行
+        */
+        white-space: nowrap;
+        /*
+        將超出範圍的內容隱藏
+        */
+        overflow: hidden;
     }
 }
 

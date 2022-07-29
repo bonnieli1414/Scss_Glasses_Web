@@ -81,7 +81,7 @@ body {
 
 /*
     文字對SEO的影響力大於圖片，
-    h1若要改放置圖片，
+    h1若要改放置圖片，可在h1標籤@include image-replaces-text;
     以下是優化圖片SEO技巧
 */
 /*
@@ -108,25 +108,25 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
-header .container .glasses-logo {
+header .glasses-logo {
   height: 50px;
 }
-header .container .glasses-logo:hover {
+header .glasses-logo:hover {
   opacity: 0.7;
 }
-header .container .ham-toggle {
+header .ham-toggle {
   visibility: hidden;
 }
-header .container .menu-list {
+header .menu-list {
   display: flex;
   gap: 64px;
   font-size: 20px;
   line-height: 30px;
 }
-header .container .menu-list a {
+header .menu-list a {
   color: #fff;
 }
-header .container .menu-list a:hover {
+header .menu-list a:hover {
   color: #c8c8ec;
 }
 
@@ -224,11 +224,11 @@ footer .container {
     padding: 24px 14px;
   }
 }
-footer .container .footer-content {
+footer .footer-content {
   border-bottom: 1px solid #FFFFFF;
 }
 @media screen and (max-width: 767px) {
-  footer .container .footer-content {
+  footer .footer-content {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -237,84 +237,84 @@ footer .container .footer-content {
     padding-bottom: 32px;
   }
 }
-footer .container .footer-menu {
+footer .footer-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .container .webmap-list {
+footer .webmap-list {
   display: flex;
   gap: 48px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .webmap-list {
+  footer .webmap-list {
     display: none;
   }
 }
-footer .container .webmap-list .webmap-link {
+footer .webmap-list .webmap-link {
   color: #fff;
 }
-footer .container .social-list {
+footer .social-list {
   display: flex;
   justify-content: space-between;
   gap: 32px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .social-list {
+  footer .social-list {
     gap: 8px;
   }
 }
-footer .container .social-list img {
+footer .social-list img {
   width: 48px;
   height: 48px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .social-list img {
+  footer .social-list img {
     width: 24px;
     height: 24px;
   }
 }
-footer .container .contact {
+footer .contact {
   font-size: 36px;
   line-height: 54px;
   padding: 36px 0 32px 0;
   gap: 8px 0;
 }
 @media screen and (max-width: 767px) {
-  footer .container .contact {
+  footer .contact {
     font-size: 16px;
     line-height: 24px;
     padding: 0px;
   }
 }
-footer .container .contact li {
+footer .contact li {
   display: flex;
   align-items: center;
   gap: 22px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .contact li {
+  footer .contact li {
     gap: 11px;
   }
 }
-footer .container .copyright {
+footer .copyright {
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .copyright {
+  footer .copyright {
     display: block;
     padding-top: 16px;
     gap: 8px 0px;
   }
 }
-footer .container .copyright ul {
+footer .copyright ul {
   display: flex;
   gap: 48px;
 }
 @media screen and (max-width: 767px) {
-  footer .container .copyright ul {
+  footer .copyright ul {
     display: block;
   }
 }/*# sourceMappingURL=all.css.map */
