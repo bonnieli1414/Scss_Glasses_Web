@@ -55,6 +55,7 @@ body {
     製作 ham-menu
 */
 @mixin ham-menu {
+
     /*
         先製作 ham-menu 
     */
@@ -72,7 +73,7 @@ body {
     .ham-frame {
         position: relative;
         top: 50%;
-        left: 50%;
+        background: #000;
     }
 
     /*
@@ -83,7 +84,7 @@ body {
         width: 30px;
         background-color: $ham-icon-color--bar;
         position: absolute;
-        left: -37.5%;
+        left: 5px;
     }
 
     .ham-bar--top {
